@@ -14,6 +14,8 @@ A vCenter installation manages both hosts, with one of them being joined to vCen
 
 To make use of the chef-provisioner, you'd need to manually setup a `chef server` that is reachable for your new vm's. This is again optional, depending on your needs and your virtual network setup.
 
+At least `terraform v0.11.5` is needed to run these templates. 
+
 ## Initial Considerations
 There are several files that hold information about your infrastructure and thus need to be setup initially. Everything prefixed `data_` will provide information to terraform that already exists on our vCenter infrastructure. (see prerequesites above)
 
