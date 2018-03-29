@@ -63,9 +63,9 @@ Multiple extra storages could be defined to support various applications on one 
 
 ## Variables
 Please setup the following *required* `env-vars`:
-* TF_VAR_vcs_password=<vCenter password>
+* TF_VAR_vcs_password=<vCenter-password>
 * TF_VAR_vcs_username=<terraform-restricted-user>@vsphere.local
-* TF_VAR_vcs_server=<vCenter IP address>
+* TF_VAR_vcs_server=<vCenter-IP-address>
 * TF_VAR_user_ssh_key=</path/to/your/.ssh/private_key>
 * TF_VAR_net_esx_01_gateway=<esx-01-gateway-IP>
 * TF_VAR_net_esx_02_gateway=<esx-02-gateway-IP>
@@ -76,6 +76,7 @@ These are *optional*, depending on your use of powerDNS and Chef-Server:
 * TF_VAR_pdns_server_url=<powerDNS URL>
 * TF_VAR_connection_private_key=</path/to/your/.ssh/private_key>
 * TF_VAR_chef_auth_pem=</path/to/.chef/admin.pem>
-* TF_VAR_chef_server_url=<URL to chef-server/organisation/yours>
+* TF_VAR_chef_server_url=<URL.to.chef-server/organisation/yours>
 * TF_VAR_chef_user_name=<chef-server username>
-* TF_VAR_chef_secret_key=<chef secret key for encrypted data bags>
+* TF_VAR_chef_secret_key=<chef-secret-key-for-encrypted-data-bags>
+
